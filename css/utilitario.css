@@ -1,0 +1,81 @@
+:root{
+  /*Cores black and white*/
+  --w:#ffffff;
+  --c1:#f7f7f7;
+  --c2:#ededed;
+  --c3:#dedede;
+  --c4:#cccccc;
+  --c5:#b2b2b2;
+  --c6:#9c9c9c;
+  --c7:#717171;
+  --c8:#595959;
+  --c9:#404040;
+  --c10:#2e2e2e;
+  --c11:#111111;
+  --c12:#000000;
+
+  /* Tons de amarelo*/
+  --p1:#ffbb00;
+  --p2:#e4a30b;
+  --p3:#a66f00;
+  --p4:#664400;
+  --p5:#332200; 
+  
+  /* Tamanhos de Fonts e tipo */
+
+  --fs12: .75rem;
+  --fs14: .875rem;
+  --fs16: 1rem;
+  --fs18: 1.125rem;
+  --fs24: 1.5rem;
+  --fs32: 2rem;
+  --fs64: 4rem;
+
+  --rb:"Roboto";
+  --pop:"Poppins";
+
+  /* Tamanho de Larguras*/
+
+  --mx:1200px;
+
+  /* Espaçamentos utilizados */
+
+  --esp4:4px;
+  --esp8:8px;
+  --esp12:12px;
+  --esp16:16px;
+  --esp20:20px;
+  --esp24:24px;
+  --esp32:32px;
+  --esp36:36px;
+  --esp40:40px;
+  --esp48:48px;
+  --esp60:60px;
+  --esp72:72px;
+  --esp80:80px;
+  --esp120:120px;
+  --esp160:160px;
+  --esp200:200px;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+ul{
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
