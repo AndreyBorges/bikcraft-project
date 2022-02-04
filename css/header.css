@@ -26,6 +26,7 @@
   padding: var(--esp16) 0;
   color: var(--c1);
   position: relative;
+  font-family: var(--pop);
 }
 
 .header-menu a::after{

@@ -4,12 +4,9 @@
 }
 
 .intro{
-  max-width: var(--mx);
-  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap:0 var(--esp40);
-  padding: 0 var(--esp20);
 }
 
 .intro-content{
@@ -26,11 +23,6 @@
   color: var(--w);
 }
 
-.intro-content h1 span{
-  color: var(--p1);
-  font-family: var(--pop);
-}
-
 .intro-content p {
   margin-bottom: var(--esp20);  
   color: var(--c5);
@@ -41,7 +33,6 @@
   grid-column: 2;
   height: 100%;
   object-fit: cover;
-  border-radius: 50px;
 }
 
 @media (max-width:1200px){

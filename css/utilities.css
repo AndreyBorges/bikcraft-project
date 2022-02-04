@@ -73,5 +73,17 @@
   }
 }
 
+.p-detail{
+  color: var(--p1);
+}
 
 
+img[src$=".jpg"]{
+  border-radius: 50px;
+}
+
+.content{
+  max-width: var(--mx);  
+  margin: 0 auto;
+  padding: 0 var(--esp20);
+}
