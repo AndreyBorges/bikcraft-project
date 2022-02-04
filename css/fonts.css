@@ -1,0 +1,128 @@
+  /* Tamanhos de Fonts e tipo */
+:root{
+  --fs12: .75rem;
+  --fs14: .875rem;
+  --fs16: 1rem;
+  --fs18: 1.125rem;
+  --fs24: 1.5rem;
+  --fs32: 2rem;
+  --fs48: 3rem;
+  --fs64: 4rem;
+
+  --rb:"Roboto";
+  --pop:"Poppins";
+}
+
+.font-1-xxl{
+  font-size: var(--fs64);
+  line-height: 1.12;
+  font-weight: 600;
+  font-family: var(--pop), sans-serif;
+}
+
+.font-1-xl{
+  font-size: var(--fs32);
+  line-height: 1.25;
+  font-weight: 600;
+  font-family: var(--pop), sans-serif;
+}
+
+.font-2-xl{
+  font-size: var(--fs32);
+  line-height: 1.25;
+  font-weight: 500;
+  font-family: var(--pop), sans-serif;
+}
+
+.font-1-l{
+  font-size: var(--fs24);
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: var(--pop), sans-serif;
+}
+
+.font-2-l{
+  font-size: var(--fs24);
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: var(--rb), sans-serif;
+}
+
+.font-2-l-b{
+  font-size: var(--fs24);
+  line-height: 1.5;
+  font-weight: 500;
+  font-family: var(--rb), sans-serif;
+}
+
+.font-1-m{
+  font-size: var(--fs18);
+  line-height: 1.33;
+  font-weight: 400;
+  font-family: var(--pop), sans-serif;
+}
+
+.font-1-m-b{
+  font-size: var(--fs18);
+  line-height: 1.33;
+  font-weight: 600;
+  font-family: var(--pop), sans-serif;
+}
+
+.font-2-m{
+  font-size: var(--fs18);
+  line-height: 1.33;
+  font-weight: 500;
+  font-family: var(--rb), sans-serif;
+}
+
+.font-1-s{
+  font-size: var(--fs16);
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: var(--pop), sans-serif;
+}
+
+.font-2-s{
+  font-size: var(--fs16);
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: var(--rb), sans-serif;
+}
+
+.font-2-xs{
+  font-size: var(--fs14);
+  line-height: 1.43;
+  font-weight: 400;
+  font-family: var(--rb), sans-serif;
+}
+
+.font-1-xs-b{
+  font-size: var(--fs12);
+  line-height: 1.33;
+  font-weight: 600;
+  font-family: var(--pop), sans-serif;
+}
+
+
+@media (max-width:1200px){
+  .font-1-xxl{  
+  font-size: var(--fs48);
+  }
+
+  .font-2-l, .font-2-l-b{
+    font-size: var(--fs18);
+  }
+}
+
+@media (max-width:800px){
+  .font-1-xxl{
+    font-size: var(--fs32);
+  }  
+
+  .font-1-xl, .font-2-xl{
+    font-size: var(--fs24);
+  }
+
+
+}
