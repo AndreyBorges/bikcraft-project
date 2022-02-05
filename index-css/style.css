@@ -1,5 +1,5 @@
 /* Index */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
 @import url(./header.css);
 @import url(./main.css);
 @import url(./reset-global.css);
@@ -8,6 +8,9 @@
 @import url(./bike-list.css);
 @import url(./tecnology.css);
 @import url(./partners.css);
+@import url(./depoiment.css);
+@import url(./insurance.css);
+@import url(./footer.css);
 
 
 

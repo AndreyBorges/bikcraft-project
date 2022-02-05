@@ -11,6 +11,7 @@
 
   --rb:"Roboto";
   --pop:"Poppins";
+  --mer:"Merriweather"
 }
 
 .font-1-xxl{
@@ -38,6 +39,13 @@
   font-size: var(--fs24);
   line-height: 1.5;
   font-weight: 400;
+  font-family: var(--pop), sans-serif;
+}
+
+.font-1-l-b{
+  font-size: var(--fs24);
+  line-height: 1.5;
+  font-weight: 600;
   font-family: var(--pop), sans-serif;
 }
 
