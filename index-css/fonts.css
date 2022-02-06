@@ -84,6 +84,13 @@
   font-family: var(--rb), sans-serif;
 }
 
+.font-2-m-n{
+  font-size: var(--fs18);
+  line-height: 1.33;
+  font-weight: 400;
+  font-family: var(--rb), sans-serif;
+}
+
 .font-1-s{
   font-size: var(--fs16);
   line-height: 1.5;
