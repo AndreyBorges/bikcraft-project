@@ -60,6 +60,16 @@
   line-height: 1.33;
   font-weight: 600;
   font-family: var(--pop), sans-serif;
+  max-width: max-content;
+}
+
+.button.sec{
+  background: var(--c10);
+  color: var(--c2);
+}
+
+.button.sec:hover{
+  background: var(--c9);
 }
 
 .button:hover{
