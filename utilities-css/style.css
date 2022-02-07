@@ -1,0 +1,33 @@
+/* Utilities */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
+@import url(../utilities-css/reset-global.css);
+@import url(../utilities-css/utilities.css);
+@import url(../utilities-css/fonts.css);
+
+/* Index */
+@import url(../index-css/header.css);
+@import url(../index-css/main.css);
+@import url(../index-css/bike-list.css);
+@import url(../index-css/tecnology.css);
+@import url(../index-css/partners.css);
+@import url(../index-css/depoiment.css);
+@import url(../index-css/insurance.css);
+@import url(../index-css/footer.css);
+
+/* Bikes */
+@import url(../bikes/bikes.css);
+
+/* Insurance */
+@import url(../insurance/vantages.css);
+@import url(../insurance/questions.css);
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+/* Terms */
+@import url(../terms/terms.css);

@@ -19,7 +19,7 @@
 .texts{
   display: grid;
   gap: var(--esp60);
-  max-width: 100ch;
+  max-width: 90ch;
   margin-top: var(--esp60) ;
   margin-bottom: var(--esp60) ;
 }

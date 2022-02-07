@@ -102,6 +102,25 @@
   color: var(--w);
 }
 
+.button.arrow{
+  display: flex;
+  align-items: center;
+}
+
+.button.arrow::after{
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url(../img/icones/seta.svg);
+  transition: transform 0.3s;
+}
+
+.button.arrow:hover::after{
+  transform: translateX(4px);
+}
+
 .p-detail{
   color: var(--p1);
 }

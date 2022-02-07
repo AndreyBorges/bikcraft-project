@@ -1,0 +1,79 @@
+.vantages-bg{
+  background: var(--c12);
+  padding-top: var(--esp60);
+  padding-bottom: var(--esp60);
+}
+
+#insurance .insurance{
+  padding-top: 0px;
+  padding-bottom: 60px;
+}
+
+#insurance .itens1, #insurance .itens2{
+  border-radius: 50px;
+}
+
+.vantages{
+ display: grid;
+ gap: 60px;
+}
+
+.vantages h2{
+  color: var(--w);
+}
+
+.vantages-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.vantages-list li{
+  display: grid;
+  gap: 5px;
+  max-width: 40ch;
+  padding: 20px;
+  align-items: center;
+  height: 215px;
+}
+
+.vantages-list h3 {
+  color: var(--w);
+  font-size: var(--fs24);
+  line-height: 1.5;
+  font-weight: 500;
+  font-family: var(--rb), sans-serif;
+  text-transform: capitalize;
+}
+
+.vantages-list p {
+  color: var(--c6);
+  font-size: var(--fs18);
+  line-height: 1.33;
+  font-weight: 400;
+  font-family: var(--rb), sans-serif;
+}
+
+.questions{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+
+@media (max-width:850px){
+  .vantages{
+    gap: 40px;
+    padding-top: 60px;
+    justify-items: center;
+  }
+
+  .vantages-list{
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
+
+@media (max-width:600px){
+  .vantages-list{
+    grid-template-columns: 1fr;
+  }
+}
