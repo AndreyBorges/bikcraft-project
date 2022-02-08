@@ -16,6 +16,8 @@
 
 /* Bikes */
 @import url(../bikes/bikes.css);
+@import url(../bikes/nimbus.css);
+@import url(../bikes/nimbus-insurance.css);
 
 /* Insurance */
 @import url(../insurance/vantages.css);
