@@ -1,59 +1,59 @@
-.nimbus-bg-insu{
+.bikes-bg-insurance{
   background: var(--c11);
   padding-top: var(--esp40);
   padding-bottom: var(--esp20);
   box-shadow: inset 0 140px var(--w), inset 0 -120px var(--c12);
 }
 
-.insurance-nimbus{
+.insurance-bikes-content{
   display: flex;
   gap: var(--esp40);
   align-items: center;
 }
 
-.nimbus-img-insurance img{
+.bikes-img-insurance img{
   object-fit: cover;
 }
 
-.insurance-nimbus h2{
+.insurance-bikes-content h2{
   max-width: 30ch;
   color: var(--w);
   margin-bottom: var(--esp32);
 }
 
-.insurance-nimbus p {
+.insurance-bikes-content p {
   margin-bottom: var(--esp20);
   color: var(--c5);
 }
 
-.insurance-nimbus-t{
+.insurance-bikes-content-txt{
   margin: 60px 0px;
 }
 
 
 @media (max-width:950px) {
 
-  .insurance-nimbus{
+  .insurance-bikes-content{
     flex-direction: column;
   }
 
-  .nimbus-img-insurance img{
+  .bikes-img-insurance img{
     max-width: 700px;
   }
   
-  .nimbus-bg-insu{
+  .bikes-bg-insurance{
     box-shadow: initial;
   }
 
 
-  .insurance-nimbus-t{
+  .insurance-bikes-content-txt{
     text-align: center;
     margin: 20px 0;
   }
 }
 
 @media (max-width:600px){
-  .nimbus-img-insurance img{
+  .bikes-img-insurance img{
     display: none;
   }
 }

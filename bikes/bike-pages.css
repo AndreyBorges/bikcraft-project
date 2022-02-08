@@ -1,13 +1,12 @@
-.nimbus-bg{
+.bikes-bg{
   background: var(--c11);
 }
 
-.bike-nimbus{
+.content-bikes{
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: start;
   padding-bottom: var(--esp60);
-  padding-top: var(--esp60);
   gap: 40px;
 }
 
@@ -26,16 +25,16 @@
   min-width: 100%;
 }
 
-.content-nimbus{
+.content-bike-text{
   display: grid;
 }
 
-.content-nimbus h2{
+.content-bike-text h2{
   text-transform: uppercase;
   margin-bottom: var(--esp12);
 }
 
-.buy-nimbus{
+.buy-bikes{
   display: grid;
   grid-template-columns: max-content auto;
   align-items: center;
@@ -44,11 +43,11 @@
   padding-bottom: var(--esp40);
 }
 
-.buy-nimbus a{
+.buy-bikes a{
   grid-row: span 2;
 }
 
-.buy-nimbus span{
+.buy-bikes span{
   display: flex;
   gap: 5px;
   padding: 5px 10px;
@@ -56,7 +55,7 @@
   background: var(--c12);
 }
 
-#nimbus .vantages-list{
+#nimbus .vantages-list, #nebula .vantages-list, #magic .vantages-list{
   margin-bottom: var(--esp40);
   background: var(--c12);
   padding: 32px;
@@ -65,7 +64,7 @@
   border-radius: 50px;
 }
 
-#nimbus .vantages-list li{
+#nimbus .vantages-list li, #nebula .vantages-list li, #magic .vantages-list li{
   padding: 0px;
   display: flex;
   flex-direction: column;
@@ -74,14 +73,14 @@
   height: 180px;
 }
 
-#nimbus .vantages-list li h3{
+#nimbus .vantages-list li h3 , #nebula .vantages-list li h3, #magic .vantages-list li h3{
   font-size: var(--fs18);
   line-height: 1.33;
   font-weight: 600;
   font-family: var(--pop), sans-serif;
 }
 
-.content-nimbus > p{
+.content-bike-text > p{
   color: var(--c5);
   font-size: var(--fs24);
   line-height: 1.5;
@@ -91,7 +90,7 @@
   max-width: 50ch;
 }
 
-.content-nimbus div > span{
+.content-bike-text div > span{
   font-size: var(--fs12);
   line-height: 1.33;
   font-weight: 600;
@@ -99,7 +98,7 @@
   color: var(--c6);
 }
 
-.content-nimbus h2{
+.content-bike-text h2{
   font-size: var(--fs16);
   line-height: 1.5;
   font-weight: 400;
@@ -108,23 +107,23 @@
 }
 
 
-.nimbus-characteristics{
+.bikes-characteristics-list{
   padding: var(--esp32);
   background: var(--c12);
   border-radius: 50px;
 }
 
-.nimbus-characteristics li{
+.bikes-characteristics-list li{
   display: flex;
   justify-content: space-between;
 }
 
-.nimbus-characteristics li + li{
+.bikes-characteristics-list li + li{
   border-top: 1px solid var(--c11);
   padding-top: 5px;
 }
 
-.nimbus-characteristics p{
+.bikes-characteristics-list p{
   color: var(--c4);
   display: inline-block;
   text-transform: capitalize;
@@ -134,7 +133,7 @@
   font-family: var(--rb), sans-serif;
 }
 
-.nimbus-characteristics span{
+.bikes-characteristics-list span{
   color: var(--c6);
   font-size: var(--fs16);
   line-height: 1.5;
@@ -171,6 +170,11 @@
   align-self: center;
   background: var(--p1);
   margin-right: var(--esp8);
+  transition: width .2s;
+}
+
+.swap-bikes a:hover h3::before{
+  width: 24px;
 }
 
 .swap-bikes span{
@@ -179,7 +183,7 @@
 }
 
 @media (max-width:800px){
-  .bike-nimbus{
+  .content-bikes{
     grid-template-columns: 1fr;
   }
 
@@ -189,15 +193,15 @@
 }
 
 @media (max-width:600px){
-  #nimbus .vantages-list{
+  #nimbus .vantages-list, #nebula .vantages-list, #magic .vantages-list{
     grid-template-columns: 1fr;
   }
 
-  #nimbus .vantages-list li{
+  #nimbus .vantages-list li, #nebula .vantages-list li, #magic .vantages-list li{
     justify-self: center;
   }
 
-  .bike-nimbus{
+  .content-bikes{
     padding-top: 20px;
     padding-bottom: 20px;
   }
