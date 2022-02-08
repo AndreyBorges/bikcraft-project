@@ -98,6 +98,13 @@
   font-family: var(--pop), sans-serif;
 }
 
+.font-1-s-b{
+  font-size: var(--fs16);
+  line-height: 1.5;
+  font-weight: 600;
+  font-family: var(--pop), sans-serif;
+}
+
 .font-2-s{
   font-size: var(--fs16);
   line-height: 1.5;

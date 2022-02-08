@@ -1,0 +1,54 @@
+.contacts-bg{
+  background: var(--c11);
+  box-shadow: inset 0 -300px var(--w);
+}
+
+.contacts-infos h2, .contacts-infos li{
+  color: white;
+}
+
+.contacts{
+  display: flex;
+  margin-bottom: var(--esp60);
+}
+
+.contacts-infos{
+  padding: 60px 130px 130px 60px;
+  background: var(--c12);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius:50px ;
+}
+
+.forms{
+  background: var(--w);
+  border-top-right-radius: 50px;
+}
+
+.contacts-infos h2{
+  margin-bottom: var(--esp60);
+}
+
+.contacts-text li + li{
+  margin-top: var(--esp32);
+}
+
+.contacts-text li{
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-text img{
+  grid-column: 1;
+}
+
+.contacts-text p{
+  grid-column: 2;
+  position: relative;
+}
+
+.contacts-icons li{
+  margin-top: 40px;
+  display: flex;
+  gap: 32px;
+  justify-content: space-around;
+}
