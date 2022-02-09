@@ -1,7 +1,8 @@
 .depoiment{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: var(--p1);
+  background: var(--p1) url(../img/dec/bottom-right-p.svg) no-repeat
+  right 40px bottom 40px;
   padding: 0;
   overflow: hidden;
 }
@@ -46,6 +47,12 @@
   font-size: 5rem;
   color: var(--p2);
   position: absolute;
+}
+
+@media (min-width:1200px){
+  .depoiment img{
+    max-height: 520px;
+  }
 }
 
 
