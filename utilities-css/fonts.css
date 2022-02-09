@@ -112,12 +112,27 @@
   font-family: var(--rb), sans-serif;
 }
 
+.font-1-x-b{
+  font-size: var(--fs14);
+  line-height: 1.43;
+  font-weight: 600;
+  font-family: var(--pop), sans-serif;
+}
+
 .font-2-xs{
   font-size: var(--fs14);
   line-height: 1.43;
   font-weight: 400;
   font-family: var(--rb), sans-serif;
 }
+
+.font-1-xs{
+  font-size: var(--fs12);
+  line-height: 1.33;
+  font-weight: 500;
+  font-family: var(--pop), sans-serif;
+}
+
 
 .font-1-xs-b{
   font-size: var(--fs12);

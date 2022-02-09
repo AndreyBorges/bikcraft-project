@@ -10,18 +10,15 @@
 .contacts{
   display: flex;
   margin-bottom: var(--esp60);
+  justify-content: center;
 }
 
 .contacts-infos{
-  padding: 60px 130px 130px 60px;
+  padding: 60px 60px;
   background: var(--c12);
   border-top-left-radius: 50px;
   border-bottom-left-radius:50px ;
-}
-
-.forms{
-  background: var(--w);
-  border-top-right-radius: 50px;
+  width: 40%;
 }
 
 .contacts-infos h2{
@@ -33,17 +30,15 @@
 }
 
 .contacts-text li{
-  display: flex;
-  flex-direction: column;
+ display: grid;
+ grid-template-columns: auto 1fr;
+ align-items: center;
+ gap: 0 8px;
 }
 
-.contacts-text img{
-  grid-column: 1;
-}
 
-.contacts-text p{
-  grid-column: 2;
-  position: relative;
+.contacts-text span{
+  grid-column: 2;  
 }
 
 .contacts-icons li{
@@ -51,4 +46,22 @@
   display: flex;
   gap: 32px;
   justify-content: space-around;
+}
+
+@media (max-width:900px){
+  
+  .contacts-bg{
+    box-shadow: initial;
+  }
+  
+  .contacts{
+    flex-direction: column;
+    background: black;
+    align-items: center;
+    padding-bottom: 60px;
+  }
+
+  .contacts-infos{
+    padding:60px 0px;
+  }
 }

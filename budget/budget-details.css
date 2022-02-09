@@ -1,0 +1,32 @@
+.budget-content{
+  display: none;
+}
+.budget-details{
+  display: none;
+  color: var(--c8);
+  background: var(--w);
+  padding: 20px;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 4px;
+  align-items: center;
+}
+
+#budget .budget-details img{
+  border-radius: 4px;
+}
+
+.budget-details li{
+  font: 400 var(--fs12)/1.33 var(--pop),sans-serif;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.budget-details li img{
+  width: var(--esp16);
+  margin-right: var(--esp8);
+}
+
+.budget-product input:checked + label + .budget-details{
+  display: grid;
+}
