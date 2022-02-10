@@ -30,15 +30,22 @@
 }
 
 .contacts-text li{
- display: grid;
- grid-template-columns: auto 1fr;
- align-items: center;
- gap: 0 8px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center; 
+
 }
 
+.contacts-text img{
+  object-fit: cover;
+  min-width: 20px;
+  min-height: 20px;
+}
 
 .contacts-text span{
-  grid-column: 2;  
+  grid-column: 2; 
+  margin-left: 8px;
+  word-break: break-all;
 }
 
 .contacts-icons li{
